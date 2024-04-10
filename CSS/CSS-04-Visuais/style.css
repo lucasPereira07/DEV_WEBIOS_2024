@@ -1,0 +1,25 @@
+body{
+    background-image: url("https://picsum.photos/id/1040/600/400");
+    background-repeat: no
+    -repeat;
+    background-size: 100%;
+}
+
+#primeiroParagrafo{
+    /*border-color: blue;
+    border-width: 2px;
+    border-style: dashed;
+
+ border: 2px outset blue; */
+ border: 2px solid burlywood;
+ border-radius: 10px;
+ background-color: hotpink;
+}
+
+ img{
+    border-radius: 10px;
+ }
+
+ #imagem{
+    border: 10px solid green
+ }
