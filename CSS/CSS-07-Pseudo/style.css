@@ -1,3 +1,40 @@
 p:first-child{
     background-color: darksalmon;
 }
+
+#botão{
+    border: 1px solid white;
+    background-color: darkseagreen;
+    border-radius: 5px;
+}
+
+#botão:hover{
+   color: white;
+   background-color: green;
+}
+
+#paragrafoHover:hover{
+    background-color: darkolivegreen;
+    color: brown;
+    border: 2px solid gold;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#titulo:hover{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#imagem:hover{
+    box-shadow: 10px 10px 10px brown;
+}
+
+#pseudo::before{
+    content: 'ola mundo ';
+}
+
+#pseudo::after{
+    content: ' opa opa opa'
+}
