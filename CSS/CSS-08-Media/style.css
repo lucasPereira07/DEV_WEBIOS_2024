@@ -6,7 +6,30 @@ img{
 min-width / max-width*/
 
 @media(max-width:450px){
+    body{
+        color: lightgreen;
+    }
     img{
         width:200px;
+    }
+
+
+img:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+ }
+}
+
+@media(min-width:452px){
+    body{
+        background-color: indianred;
+    }
+    img{
+        width:600
+    }
+    img:hover{
+        box-shadow: 10px 10px 10px pink;
+        border-radius: 10px;
     }
 }
