@@ -1,8 +1,11 @@
 body {
     background-color: #533618;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+    background-image:url(./Attack\ on\ titan\ principal.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 88%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .titulo {
@@ -53,7 +56,7 @@ body {
     margin-top: 10px;
 }
 
-.botao1:hover {
+.botao:hover {
     background-color: #9C867C;
    }
 
@@ -80,7 +83,7 @@ body {
     margin: 2em;
     padding: 2em;
     color: white;
-    background-color: #725436;
+    background-color: #9C867C;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
