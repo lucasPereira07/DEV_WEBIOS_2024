@@ -1,0 +1,26 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid springgreen;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    height: 50vh;
+    align-items: stretch;
+    
+}
+
+.cont{
+    border: 2px solid pink;
+    background-color: indianred;
+    width: 60px;
+    /* height: 50px; */
+    transition: all 0.8s;
+}
+
+.cont:hover{
+    transform: scale(1.09);
+}
+
+.div1{
+    flex-grow: 1;
+}
