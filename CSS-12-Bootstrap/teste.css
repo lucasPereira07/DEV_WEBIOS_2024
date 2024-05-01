@@ -1,0 +1,38 @@
+*{
+    list-style: none;
+    margin: auto;
+}
+
+
+
+header{
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(2, 2, 94);
+    font-size: 25px;
+    padding-top: 1em;
+}
+
+nav{
+    background-color: blue;
+    padding: 10px;
+}
+
+.botao1{
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+span{
+    color: red;
+}
+
+a{
+    border: solid 1px black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+    margin: 5px;
+    padding: 5px;
+}
